@@ -1,7 +1,9 @@
 {
-  "label": "Tutorial - Extras",
+  "label": "Extras",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "目录描述",
+    "image": "/img/docusaurus.png"
   }
 }

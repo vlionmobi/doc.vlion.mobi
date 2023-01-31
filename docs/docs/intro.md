@@ -2,21 +2,78 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Docs Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Markdown 额外特性
 
-## Getting Started
+[详情](https://docusaurus.io/zh-CN/docs/markdown-features)
 
-Get started by **creating a new site**.
+### 选项卡示例
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+``` jsx title="选项卡示例代码"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-### What you'll need
+<Tabs>
+  <TabItem value="apple" label="苹果" default>
+    这是个苹果 🍎
+  </TabItem>
+  <TabItem value="orange" label="橙子">
+    这是个橙子 🍊
+  </TabItem>
+  <TabItem value="banana" label="香蕉">
+    这是个香蕉 🍌
+  </TabItem>
+</Tabs>
+```
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="apple" label="苹果" default>
+    这是个苹果 🍎
+  </TabItem>
+  <TabItem value="orange" label="橙子">
+    这是个橙子 🍊
+  </TabItem>
+  <TabItem value="banana" label="香蕉">
+    这是个香蕉 🍌
+  </TabItem>
+</Tabs>
 
 ### Details 元素示例
 
-sand box have fun to auto merge
+``` jsx title="Details 示例代码"
+<details>
+  <summary>点我！</summary>
+  <div>
+    <div>这是详情内容</div>
+    <br/>
+    <details>
+      <summary>
+        嵌套的下拉栏！ 内含惊喜……
+      </summary>
+      <div>
+        😲😲😲😲😲
+      </div>
+    </details>
+  </div>
+</details>
+```
+
+<details>
+  <summary>点我！</summary>
+  <div>
+    <div>这是详情内容</div>
+    <br/>
+    <details>
+      <summary>
+        嵌套的下拉栏！ 内含惊喜……
+      </summary>
+      <div>
+        😲😲😲😲😲
+      </div>
+    </details>
+  </div>
+</details>
