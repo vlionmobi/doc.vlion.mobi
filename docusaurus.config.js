@@ -93,6 +93,12 @@ const config = {
         items: [
           {
             type: 'doc',
+            docId: 'OpenRTB/init',
+            position: 'left',
+            label: 'OpenRTB',
+          },
+          {
+            type: 'doc',
             docId: 'docs/intro',
             position: 'left',
             label: 'Docs',
